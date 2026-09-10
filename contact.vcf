@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Magnus Lundsgaard
+N:Lundsgaard;Magnus;;;
+item1.EMAIL;TYPE=INTERNET:MagnusLundsgaard@3lyngby.dk
+item1.X-ABLabel:
+item2.TEL:00 45 31 17 17 90
+item2.X-ABLabel:
+item3.ADR:;;;Kgs. Lyngby;;;DK;Kgs. Lyngby\nDK
+item3.X-ABLabel:
+ORG:3.lyngby
+BDAY:--0718
+CATEGORIES:myContacts
+END:VCARD

@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kontakt</title>
+  
+  <script>
+    window.addEventListener('DOMContentLoaded', () => {
+      const addContact = document.getElementById('addContact');
+
+      // Create an invisible anchor that triggers the vCard download automatically.
+      const link = document.createElement('a');
+      link.href = 'contact.vcf';
+      link.download = 'Magnus-Lundsgaard.vcf';
+      link.rel = 'noopener';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+
+      addContact.addEventListener('click', () => {
+        // Allow browser download for contact card file.
+      });
+      window.close();
+    });
+  </script>
+</body>
+</html>
